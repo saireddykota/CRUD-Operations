@@ -1,13 +1,13 @@
 <h1>CRUD Operations</h1>
 <h2>Enter the word to insert</h2>
-<div>
+<div class id = 'crud'>
 <input [(ngModel)]="newItem" class="addtext">
 <button (click) ="pushItem()">Add</button>
-
 <ul>
  <li *ngFor = "let i of arr; let ind= index">
      {{i}}
-     <span  (click)="removeItem(ind)">x</span></li>
+     <span  (click)="removeItem(ind)">Delete</span>
+    </li>
 </ul>
 
 </div>

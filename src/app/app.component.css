@@ -13,6 +13,10 @@ h1 {color:white;
 
 }
 
+.crud{
+    padding:10px;
+}
+
 ul{
     margin-left :0px;
     list-style:none;
